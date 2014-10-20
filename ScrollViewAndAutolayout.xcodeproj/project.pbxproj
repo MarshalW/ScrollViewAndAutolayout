@@ -83,11 +83,11 @@
 		F3BEFC7F19EFE3CF006704F2 /* ScrollViewAndAutolayout */ = {
 			isa = PBXGroup;
 			children = (
-				F3F7AE5319F10A3E002E1349 /* ContentView.xib */,
 				F3BEFC8419EFE3CF006704F2 /* AppDelegate.h */,
 				F3BEFC8519EFE3CF006704F2 /* AppDelegate.m */,
 				F3BEFC8719EFE3CF006704F2 /* ViewController.h */,
 				F3BEFC8819EFE3CF006704F2 /* ViewController.m */,
+				F3F7AE5319F10A3E002E1349 /* ContentView.xib */,
 				F3BEFC8A19EFE3CF006704F2 /* Main.storyboard */,
 				F3BEFC8D19EFE3CF006704F2 /* Images.xcassets */,
 				F3BEFC8F19EFE3CF006704F2 /* LaunchScreen.xib */,

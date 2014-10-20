@@ -18,24 +18,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="imE-1o-QpD">
-                                <rect key="frame" x="26" y="10" width="548" height="580"/>
-                                <color key="backgroundColor" red="0.79924013769622626" green="1" blue="0.8143953132590589" alpha="1" colorSpace="calibratedRGB"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jkq-6Q-WzT">
+                                <rect key="frame" x="18" y="24" width="564" height="552"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="imE-1o-QpD" secondAttribute="bottom" constant="10" id="bDe-Vz-84Q"/>
-                            <constraint firstItem="imE-1o-QpD" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="10" id="iDn-72-FrA"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="imE-1o-QpD" secondAttribute="trailing" constant="10" id="lZw-nE-Wcg"/>
-                            <constraint firstItem="imE-1o-QpD" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="10" id="rFR-cN-kmc"/>
+                            <constraint firstItem="Jkq-6Q-WzT" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="2" id="3md-2v-aun"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Jkq-6Q-WzT" secondAttribute="trailing" constant="2" id="7Nu-52-v1o"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Jkq-6Q-WzT" secondAttribute="bottom" constant="24" id="8pn-FW-vdA"/>
+                            <constraint firstItem="Jkq-6Q-WzT" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="24" id="sCZ-fk-kaO"/>
                         </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="scrollView" destination="imE-1o-QpD" id="qJ6-8q-6PS"/>
+                        <outlet property="scrollView" destination="Jkq-6Q-WzT" id="3hK-Fa-LOE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
